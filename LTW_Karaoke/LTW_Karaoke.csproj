@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{20363424-92C9-458D-857D-2A53638F6851}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>LTW_Karaoke</RootNamespace>
+    <AssemblyName>LTW_Karaoke</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmDatPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDatPhong.designer.cs">
+      <DependentUpon>frmDatPhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDangnhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDangnhap.Designer.cs">
+      <DependentUpon>frmDangnhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMatHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMatHang.designer.cs">
+      <DependentUpon>frmMatHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQLKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQLKhachHang.Designer.cs">
+      <DependentUpon>frmQLKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHoadon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHoadon.Designer.cs">
+      <DependentUpon>frmHoadon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manhinhchinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manhinhchinh.Designer.cs">
+      <DependentUpon>Manhinhchinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\DANHMUC.cs" />
+    <Compile Include="Model\HOADONBANHANG.cs" />
+    <Compile Include="Model\KaraokeDB.cs" />
+    <Compile Include="Model\KHACHHANG.cs" />
+    <Compile Include="Model\LOAIPHONG.cs" />
+    <Compile Include="Model\MATHANG.cs" />
+    <Compile Include="Model\NHANVIEN.cs" />
+    <Compile Include="Model\PHONG.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="frmQLTaiKhoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQLTaiKhoan.Designer.cs">
+      <DependentUpon>frmQLTaiKhoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLyPhong.designer.cs">
+      <DependentUpon>QuanLyPhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Session.cs" />
+    <Compile Include="frmThongTinTaiKhoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThongTinTaiKhoan.Designer.cs">
+      <DependentUpon>frmThongTinTaiKhoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWaitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWaitForm.Designer.cs">
+      <DependentUpon>frmWaitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoaiPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoaiPhong.Designer.cs">
+      <DependentUpon>frmLoaiPhong.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmDatPhong.resx">
+      <DependentUpon>frmDatPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDangnhap.resx">
+      <DependentUpon>frmDangnhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMatHang.resx">
+      <DependentUpon>frmMatHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQLKhachHang.resx">
+      <DependentUpon>frmQLKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHoadon.resx">
+      <DependentUpon>frmHoadon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manhinhchinh.resx">
+      <DependentUpon>Manhinhchinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="frmQLTaiKhoan.resx">
+      <DependentUpon>frmQLTaiKhoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmThongTinTaiKhoan.resx">
+      <DependentUpon>frmThongTinTaiKhoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWaitForm.resx">
+      <DependentUpon>frmWaitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLyPhong.resx">
+      <DependentUpon>QuanLyPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoaiPhong.resx">
+      <DependentUpon>frmLoaiPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.Config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\khung karaoke đang nhap.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\khungkara.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\k.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\676d4c985fce1bb0837f195717d97226.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mick.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tai_nghe-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mica.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\micr.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\micaa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ka.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a0645faae300cde9ecd0bbb7e6bb32d1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kk.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ne.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cb8e22e928762930d5abbbed6e3b1616.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\29ea68ac63d8b560e8a663d22534abe8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User_24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stop_24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Remove_24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Preview_24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play_24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Globe_24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit_24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Check_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Audio Disk_24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calendar_48x48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Compact Disk_48x48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Forward_24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hard Disk_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Forward_24x241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Favorites_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\karaoke-six-priencesses-high-resolution-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\karaoke-six-priencesses-high-resolution-logo %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3985c53bb19fd58c5de5e623686fde08-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0e43b44f82e77c7e8cb8256b5d5caae1-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z4824098657763_49969fd1b9ae6771fded0e7f4d919466.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gifloading.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z4824538715828_76dd7756d3269a6e6e4d877e9c06a53f.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z4825964043553_87d5db7d847d12ba7f4fff9db1fcc10a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z4825964043553_87d5db7d847d12ba7f4fff9db1fcc10a1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z4825958724942_1b86a98f421e8416921329ed62ee210e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z4825965218645_cd2c2f7bf847a8f4ce4500353a2f9914.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z4825958090570_1bff604dc7a91f50f5c4a3286f7a5047.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z4825965218645_cd2c2f7bf847a8f4ce4500353a2f99141.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z4825964043553_87d5db7d847d12ba7f4fff9db1fcc10a2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhnongvaanhcainguc.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\386081916_324906196749065_190663815436143028_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\58bd5e593902fd8e92023230c88aea48.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\58bd5e593902fd8e92023230c88aea481.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1e436eef0fe4314b21dc4c03a69693e5.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

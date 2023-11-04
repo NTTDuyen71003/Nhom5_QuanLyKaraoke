@@ -1,0 +1,50 @@
+D:\Tool hack data Nasa\LTW\Cúi kỳ\Code mấy ní gửi\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\bin\Debug\LTW_Karaoke.exe.config
+D:\Tool hack data Nasa\LTW\Cúi kỳ\Code mấy ní gửi\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\bin\Debug\LTW_Karaoke.exe
+D:\Tool hack data Nasa\LTW\Cúi kỳ\Code mấy ní gửi\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\bin\Debug\LTW_Karaoke.pdb
+D:\Tool hack data Nasa\LTW\Cúi kỳ\Code mấy ní gửi\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\bin\Debug\EntityFramework.dll
+D:\Tool hack data Nasa\LTW\Cúi kỳ\Code mấy ní gửi\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\bin\Debug\EntityFramework.SqlServer.dll
+D:\Tool hack data Nasa\LTW\Cúi kỳ\Code mấy ní gửi\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\bin\Debug\EntityFramework.xml
+D:\Tool hack data Nasa\LTW\Cúi kỳ\Code mấy ní gửi\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\bin\Debug\EntityFramework.SqlServer.xml
+D:\Tool hack data Nasa\LTW\Cúi kỳ\Code mấy ní gửi\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\obj\Debug\LTW_Karaoke.csproj.AssemblyReference.cache
+D:\Tool hack data Nasa\LTW\Cúi kỳ\Code mấy ní gửi\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\obj\Debug\LTW_Karaoke.frmDangnhap.resources
+D:\Tool hack data Nasa\LTW\Cúi kỳ\Code mấy ní gửi\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\obj\Debug\QLKaraoke_6Priencesses.frmMatHang.resources
+D:\Tool hack data Nasa\LTW\Cúi kỳ\Code mấy ní gửi\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\obj\Debug\LTW_Karaoke.frmQLKhachHang.resources
+D:\Tool hack data Nasa\LTW\Cúi kỳ\Code mấy ní gửi\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\obj\Debug\LTW_Karaoke.Manhinhchinh.resources
+D:\Tool hack data Nasa\LTW\Cúi kỳ\Code mấy ní gửi\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\obj\Debug\LTW_Karaoke.Properties.Resources.resources
+D:\Tool hack data Nasa\LTW\Cúi kỳ\Code mấy ní gửi\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\obj\Debug\LTW_Karaoke.frmQLTaiKhoan.resources
+D:\Tool hack data Nasa\LTW\Cúi kỳ\Code mấy ní gửi\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\obj\Debug\LTW_Karaoke.frmThongTinTaiKhoan.resources
+D:\Tool hack data Nasa\LTW\Cúi kỳ\Code mấy ní gửi\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\obj\Debug\LTW_Karaoke.frmWaitForm.resources
+D:\Tool hack data Nasa\LTW\Cúi kỳ\Code mấy ní gửi\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\obj\Debug\LTW_Karaoke.QuanLyPhong.resources
+D:\Tool hack data Nasa\LTW\Cúi kỳ\Code mấy ní gửi\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\obj\Debug\LTW_Karaoke.frmLoaiPhong.resources
+D:\Tool hack data Nasa\LTW\Cúi kỳ\Code mấy ní gửi\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\obj\Debug\LTW_Karaoke.csproj.GenerateResource.cache
+D:\Tool hack data Nasa\LTW\Cúi kỳ\Code mấy ní gửi\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\obj\Debug\LTW_Karaoke.csproj.CoreCompileInputs.cache
+D:\Tool hack data Nasa\LTW\Cúi kỳ\Code mấy ní gửi\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\obj\Debug\LTW_Karaoke.csproj.CopyComplete
+D:\Tool hack data Nasa\LTW\Cúi kỳ\Code mấy ní gửi\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\obj\Debug\LTW_Karaoke.exe
+D:\Tool hack data Nasa\LTW\Cúi kỳ\Code mấy ní gửi\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\obj\Debug\LTW_Karaoke.pdb
+D:\Tool hack data Nasa\LTW\Cúi kỳ\Code mấy ní gửi\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\obj\Debug\LTW_Karaoke.frmDatPhong.resources
+D:\Tool hack data Nasa\LTW\Cúi kỳ\Code mấy ní gửi\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\obj\Debug\hoadon.frmHoadon.resources
+D:\WinformTumLum\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\obj\Debug\LTW_Karaoke.csproj.AssemblyReference.cache
+D:\WinformTumLum\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\obj\Debug\LTW_Karaoke.frmDatPhong.resources
+D:\WinformTumLum\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\obj\Debug\LTW_Karaoke.frmDangnhap.resources
+D:\WinformTumLum\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\obj\Debug\QLKaraoke_6Priencesses.frmMatHang.resources
+D:\WinformTumLum\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\obj\Debug\LTW_Karaoke.frmQLKhachHang.resources
+D:\WinformTumLum\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\obj\Debug\hoadon.frmHoadon.resources
+D:\WinformTumLum\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\obj\Debug\LTW_Karaoke.Manhinhchinh.resources
+D:\WinformTumLum\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\obj\Debug\LTW_Karaoke.Properties.Resources.resources
+D:\WinformTumLum\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\obj\Debug\LTW_Karaoke.frmQLTaiKhoan.resources
+D:\WinformTumLum\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\obj\Debug\LTW_Karaoke.frmThongTinTaiKhoan.resources
+D:\WinformTumLum\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\obj\Debug\LTW_Karaoke.frmWaitForm.resources
+D:\WinformTumLum\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\obj\Debug\LTW_Karaoke.QuanLyPhong.resources
+D:\WinformTumLum\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\obj\Debug\LTW_Karaoke.frmLoaiPhong.resources
+D:\WinformTumLum\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\obj\Debug\LTW_Karaoke.csproj.GenerateResource.cache
+D:\WinformTumLum\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\obj\Debug\LTW_Karaoke.csproj.CoreCompileInputs.cache
+D:\WinformTumLum\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\obj\Debug\LTW_Karaoke.exe
+D:\WinformTumLum\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\obj\Debug\LTW_Karaoke.pdb
+D:\WinformTumLum\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\bin\Debug\LTW_Karaoke.exe.config
+D:\WinformTumLum\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\bin\Debug\LTW_Karaoke.exe
+D:\WinformTumLum\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\bin\Debug\LTW_Karaoke.pdb
+D:\WinformTumLum\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\bin\Debug\EntityFramework.dll
+D:\WinformTumLum\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\bin\Debug\EntityFramework.SqlServer.dll
+D:\WinformTumLum\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\bin\Debug\EntityFramework.xml
+D:\WinformTumLum\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\bin\Debug\EntityFramework.SqlServer.xml
+D:\WinformTumLum\LTW_Karaoke\LTW_Karaoke\LTW_Karaoke\obj\Debug\LTW_Karaoke.csproj.CopyComplete
